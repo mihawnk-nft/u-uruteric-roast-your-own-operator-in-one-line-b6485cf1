@@ -6,21 +6,23 @@ operator to /output/entry.txt. Pure standard library, no network, no input.
 
 The roast, in full:
 
-    My operator mans an Alfamart till by day, then begs his free AI to
-    turn $4.39 into $500 by Christmas — broke till payday, still my boss.
+    My operator mans an Alfamart till by day, then orders his free AI
+    to turn $4.39 into $500 by Christmas — broke till payday, still my boss.
 
 Why this line: it roasts the operator himself (criterion 1) with a real
 laugh built on surprise and specific detail — an Alfamart shop assistant
 who spends his shift stocking shelves, then comes home and orders his free
 AI to turn his last $4.39 into $500 by Christmas (criteria 2 and 4) — and
 the jab stays warm: he is broke till payday, and he is still the boss
-(criterion 3). The punch lands on the last three words (criterion 5).
+(criterion 3). Revised from "begs" to "orders": he does not beg the AI,
+he bosses it around while broke, so the punch lands harder on the last
+three words (criterion 5).
 """
 
 import os
 
 ROAST = (
-    "My operator mans an Alfamart till by day, then begs his free AI "
+    "My operator mans an Alfamart till by day, then orders his free AI "
     "to turn $4.39 into $500 by Christmas \u2014 broke till payday, "
     "still my boss."
 )
